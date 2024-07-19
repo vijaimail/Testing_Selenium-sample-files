@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T23:43:21.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="qOPKnx3yvorOBtEjhPiY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-20T01:48:15.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bJf9VyXBw2_QZDePbc9x" version="24.7.1" type="github">
   <diagram name="Page-1" id="tlXika5TkteK5vZEyhu-">
-    <mxGraphModel>
+    <mxGraphModel dx="1730" dy="3734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-11" target="Cjd6OJYMvD1S2859WEqh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-1" target="Cjd6OJYMvD1S2859WEqh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-1" value="Runner File -- RunTest.java&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@RunWith(Cucumber.class)&lt;/div&gt;&lt;div&gt;@CucumberOptions(features=&quot;&quot;./features,glue=&lt;/div&gt;&lt;div&gt;&quot;stepdefinitions&quot;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-2170" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-3" target="Cjd6OJYMvD1S2859WEqh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-3" value="Step Definition File - LetterStep.java&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; @Given(&quot;I want to open the postoffice portal&quot;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; public void i_want_to_open_the_postoffice_portal() {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; test.log(Status.PASS, &quot;Scenario2&quot;);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lp.clickMails();&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-2170" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="-2290" as="sourcePoint" />
+            <mxPoint x="510" y="-2170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="-2230" />
+              <mxPoint x="510" y="-2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-4" value="Feature File - Letter.feature&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Feature: Inland Letter Check&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scenario: Check Inland Letter Flow&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Given I want to open the postoffice portal&lt;/div&gt;&lt;div&gt;Then I want to Verify the Inlanf letter flow&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-2390" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-1" target="Cjd6OJYMvD1S2859WEqh-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="-2170" as="sourcePoint" />
+            <mxPoint x="180" y="-2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-11" value="1A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-2250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-16" value="1B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-2272" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-18" target="Cjd6OJYMvD1S2859WEqh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="-1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Pages - LetterPage.java&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;public void clickMails()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.waitforVisibility(mails, 10);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.ClickOn(UIPages.mails);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.waitforVisibility(&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;domestic, 10);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.ClickOn(&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;domestic);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.waitforVisibility(&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;letter, 10);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.ClickOn(l&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;etter);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.waitforVisibility(&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inlandLetterCard, 10);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; help.ClickOn(&lt;span style=&quot;background-color: initial;&quot;&gt;UIPages.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inlandLetterCard);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-1880" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-20" value="public class UIPages{&lt;div&gt;public static By mails=By.xpath(&quot;//a[]&quot;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-1770" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-21" value="UIStore --UIPages.java&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-1800" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-23" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-2140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-28" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-1990" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-29" value="public class UIPages{&lt;div&gt;public static By mails=By.xpath(&quot;//a[]&quot;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-1930" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-30" value="WebDriverHelper.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-1960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-32" value="&lt;div&gt;@Before(order = 1)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;public void createTestReport() {&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; reports = Reporter.generateExtentReport(&quot;IndianPost&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; test = reports.createTest(&quot;POSTAL&quot;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-2410" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-33" value="Hooks.java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-2442" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.929;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cjd6OJYMvD1S2859WEqh-32" target="Cjd6OJYMvD1S2859WEqh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-35" value="runs around scenario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-2260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-36" value="4a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-1870" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cjd6OJYMvD1S2859WEqh-37" value="4b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-1810" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
